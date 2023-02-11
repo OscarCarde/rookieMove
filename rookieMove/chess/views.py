@@ -1,3 +1,8 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def board(request):
+    '''
+        placeholder function to render the board tenplate
+    '''
+    return render(request, "chess/board.html")
