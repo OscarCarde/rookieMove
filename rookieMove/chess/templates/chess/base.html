@@ -1,0 +1,50 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'chess/base.css' %}">
+    {% block styles %}{% endblock %}
+    {% block scripts %}{% endblock %}
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">RookieMove</a>
+            </li>
+            
+            <li>
+                <a href="#">Github</a>
+            </li>
+        </ul>
+    </nav>
+
+    {% block body %}
+    {% endblock %}
+
+    <footer>
+        <ul>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Credits</a>
+            </li>
+            <li>
+                <a href="#">Documentation</a>
+            </li>
+            <li>
+                <p>release V1</p>
+            </li>
+            <li>
+                <p>copyright</p>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
