@@ -6,7 +6,7 @@ Rookie Move Chess
 {% endblock %}
 
 {% block styles %}
-<link rel="stylesheet" href="{% static 'board.css' %}">
+<link rel="stylesheet" href="{% static 'chess/css/board.css' %}">
 {% endblock %}
 
 {% block script %} 
@@ -16,5 +16,91 @@ Rookie Move Chess
 {% block body %}
 
     <!--- render board here -->
+    <div class="board-container">
+        <table id="chessboard">
+        <tr>
+          <td class="black"><a href="#"></a></td>
+          <td class="white"><a href="#"></a></td>
+          <td class="black"><a href="#"></a></td>
+          <td class="white"><a href="#"></a></td>
+          <td class="black"><a href="#"></a></td>
+          <td class="white"><a href="#"></a></td>
+          <td class="black"><a href="#"></a></td>
+          <td class="white"><a href="#"></a></td>
+        </tr>
+        <tr>
+          <td class="white"><a href="#"></a></td>
+          <td class="black"><a href="#"></a></td>
+          <td class="white"><a href="#"></a></td>
+          <td class="black"><a href="#"></a></td>
+          <td class="white"><a href="#"></a></td>
+          <td class="black"><a href="#"></a></td>
+          <td class="white"><a href="#"></a></td>
+          <td class="black"><a href="#"></a></td>
+        </tr>
+        <tr>
+            <td class="black"><a href="#"></a></td>
+            <td class="white"><a href="#"></a></td>
+            <td class="black"><a href="#"></a></td>
+            <td class="white"><a href="#"></a></td>
+            <td class="black"><a href="#"></a></td>
+            <td class="white"><a href="#"></a></td>
+            <td class="black"><a href="#"></a></td>
+            <td class="white"><a href="#"></a></td>
+          </tr>
+          <tr>
+            <td class="white"><a href="#"></a></td>
+            <td class="black"><a href="#"></a></td>
+            <td class="white"><a href="#"></a></td>
+            <td class="black"><a href="#"></a></td>
+            <td class="white"><a href="#"></a></td>
+            <td class="black"><a href="#"></a></td>
+            <td class="white"><a href="#"></a></td>
+            <td class="black"><a href="#"></a></td>
+          </tr>
+          <tr>
+            <td class="black"><a href="#"></a></td>
+            <td class="white"><a href="#"></a></td>
+            <td class="black"><a href="#"></a></td>
+            <td class="white"><a href="#"></a></td>
+            <td class="black"><a href="#"></a></td>
+            <td class="white"><a href="#"></a></td>
+            <td class="black"><a href="#"></a></td>
+            <td class="white"><a href="#"></a></td>
+          </tr>
+          <tr>
+            <td class="white"><a href="#"></a></td>
+            <td class="black"><a href="#"></a></td>
+            <td class="white"><a href="#"></a></td>
+            <td class="black"><a href="#"></a></td>
+            <td class="white"><a href="#"></a></td>
+            <td class="black"><a href="#"></a></td>
+            <td class="white"><a href="#"></a></td>
+            <td class="black"><a href="#"></a></td>
+          </tr>
+          <tr>
+              <td class="black"><a href="#"></a></td>
+              <td class="white"><a href="#"></a></td>
+              <td class="black"><a href="#"></a></td>
+              <td class="white"><a href="#"></a></td>
+              <td class="black"><a href="#"></a></td>
+              <td class="white"><a href="#"></a></td>
+              <td class="black"><a href="#"></a></td>
+              <td class="white"><a href="#"></a></td>
+            </tr>
+            <tr>
+              <td class="white"><a href="#"></a></td>
+              <td class="black"><a href="#"></a></td>
+              <td class="white"><a href="#"></a></td>
+              <td class="black"><a href="#"></a></td>
+              <td class="white"><a href="#"></a></td>
+              <td class="black"><a href="#"></a></td>
+              <td class="white"><a href="#"></a></td>
+              <td class="black"><a href="#"></a></td>
+            </tr>
+        <!-- Repeat for the remaining rows -->
+      </table>
+      
 
-{% endblock body %}
+    </div>
+    {% endblock body %}

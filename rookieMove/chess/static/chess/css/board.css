@@ -1,0 +1,27 @@
+.board-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#chessboard {
+    border-collapse: collapse;
+  }
+  
+  #chessboard td {
+    width: 80px;
+    height: 80px;
+  }
+  #chessboard td a {
+    width: 80px;
+    height: 80px;
+    padding: 0;
+  }
+  
+  .black {
+    background-color: black;
+  }
+  
+  .white {
+    background-color: white;
+  }
+  
